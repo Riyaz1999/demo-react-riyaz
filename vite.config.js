@@ -6,4 +6,8 @@ export default defineConfig({
   root:'src',
   plugins: [react()],  
   base:'/demo-react-riyaz/',
+  build:{
+    outDir:'../dist',
+    emptyOutDir:true
+  }
 })
